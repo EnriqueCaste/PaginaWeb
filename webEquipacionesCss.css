@@ -1,0 +1,59 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    overflow: hidden; 
+}
+.grid-container {
+    display: grid;
+    height: 100vh; 
+    width: 100vw;
+    background-color: #1e1e1e;
+    place-items: center;
+}
+.grid-content{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 2em;
+    color: #ffffff;
+    margin-top: -3em;
+}
+.grid-content a {
+    color: #b6b2b2;
+    text-decoration: none; 
+    transition: color 0.5s ease; 
+    transition: transform 0.3s ease; 
+    display: inline-block; 
+}
+
+.grid-content a:hover {
+    transform: scale(1.1); 
+    color:white ;
+}
+.main-container {
+    background: linear-gradient(135deg, #3498db, #2ecc71); 
+    color: white;
+    height: 80vh;
+    width: 85vw; 
+    border-radius: 8px; 
+    margin-top: -11em;
+}
+.service-list {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 1.4em;
+    margin-left: 2em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna (uno debajo del otro) */
+    justify-content: center; /* Centra verticalmente */
+    
+    height: 100%; /* Asegura que el contenedor use todo el alto disponible */
+}
+
+.service-list li {
+    margin-bottom: 4em; 
+    opacity: 0; /* Empieza oculto */
+
+}

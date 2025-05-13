@@ -1,0 +1,129 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(12, 1fr); /* Define 12 filas de igual tamaño */
+    height: 100vh; /* Opcional: para que ocupe toda la altura de la pantalla */
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el padding y el border no aumenten el tamaño de los elementos */
+}
+body {
+    overflow: hidden; /* Esto oculta las barras de desplazamiento */
+}
+.header-container {
+    grid-row: span 2; 
+    background-color: #1e1e1e;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.header-content{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 2em;
+    text-align: center; 
+    color: #ffffff;
+    flex: 1; 
+    z-index: 2;
+}
+.header-content a {
+    color: #b6b2b2;
+    text-decoration: none; 
+    transition: color 0.5s ease; 
+    transition: transform 0.3s ease; 
+    display: inline-block; 
+    z-index: 2
+}
+
+.header-content a:hover {
+    transform: scale(1.1); 
+    color:white ;
+}
+
+.main-container {
+    grid-row: span 8;
+    background: linear-gradient(135deg, #3498db, #2ecc71); /* Gradiente diagonal */
+    font-family: "Maven Pro", sans-serif;
+    display: flex; /* Usamos Flexbox para centrar el contenido */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    flex-direction: column; /* Alinea elementos verticalmente */
+    color: white;
+
+    
+}
+.main-content {
+    z-index: 2
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], 
+.fichas {
+    width: 100%; /* Ancho completo del contenedor */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Margen superior e inferior */
+    border: 2px solid #3498db; /* Borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1em; /* Tamaño de la fuente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: border-color 0.3s ease; /* Transición suave para el borde */
+    z-index: 2
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="date"]:focus,
+.fichasFocus {
+    border-color: #2ecc71; /* Cambiar a verde cuando está enfocado */
+    outline: none; /* Quitar el contorno predeterminado */
+    z-index: 2
+
+}
+
+.picklist-container {
+    display: flex; 
+    margin: 0.5em;
+    gap: 1em;
+}
+
+.boton {
+    background-color: #0398fb;
+    font-family: 'Maven Pro', sans-serif; 
+    color: white;
+    border: 0.2em solid #ffffff;  
+    border-radius: 0.5em;   
+    padding: 0.5em 0.7em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    z-index: 2
+
+}
+.boton:hover {
+    background-color: #10be59;
+    transform: scale(1.1);
+}
+
+.footer-container {
+    grid-row: span 2; 
+    background-color: #1e1e1e;
+}
+
+.paint-drop {
+    background-color: #1e1e1e; 
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    position: absolute; /* Para que pueda moverse libremente */
+    top: 1; /* Empieza desde la parte superior */
+    animation: fall 3s linear infinite; 
+    z-index: 1;
+}
+
+@keyframes fall {
+    0% {
+        transform: translate(-50%, 100vh); /* Inicia desde el header */
+    }
+    100% {
+        transform: translate(-50%, 0); /* Termina en el pie de página */
+    }
+}
