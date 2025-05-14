@@ -1,16 +1,16 @@
 .grid-container {
     display: grid;
-    grid-template-rows: repeat(12, 1fr); /* Define 12 filas de igual tamaño */
-    height: 100vh; /* Opcional: para que ocupe toda la altura de la pantalla */
+    grid-template-rows: repeat(12, 1fr);
+    height: 100vh; 
     
 }
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Asegura que el padding y el border no aumenten el tamaño de los elementos */
+    box-sizing: border-box;
 }
 body {
-    overflow: hidden; /* Esto oculta las barras de desplazamiento */
+    overflow: hidden; 
 }
 .header-container {
     grid-row: span 2; 
@@ -43,12 +43,12 @@ body {
 
 .main-container {
     grid-row: span 8;
-    background: linear-gradient(135deg, #3498db, #2ecc71); /* Gradiente diagonal */
+    background: linear-gradient(135deg, #3498db, #2ecc71); 
     font-family: "Maven Pro", sans-serif;
-    display: flex; /* Usamos Flexbox para centrar el contenido */
-    align-items: center; /* Centra los elementos horizontalmente */
-    justify-content: center; /* Centra los elementos verticalmente */
-    flex-direction: column; /* Alinea elementos verticalmente */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
     color: white;
 
     
@@ -59,21 +59,21 @@ body {
 
 input[type="text"], input[type="email"], input[type="password"], input[type="date"], 
 .fichas {
-    width: 100%; /* Ancho completo del contenedor */
-    padding: 10px; /* Espaciado interno */
-    margin: 10px 0; /* Margen superior e inferior */
-    border: 2px solid #3498db; /* Borde azul */
-    border-radius: 5px; /* Bordes redondeados */
-    font-size: 1em; /* Tamaño de la fuente */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    transition: border-color 0.3s ease; /* Transición suave para el borde */
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 2px solid #3498db;
+    border-radius: 5px; 
+    font-size: 1em; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease; 
     z-index: 2
 }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="date"]:focus,
 .fichasFocus {
-    border-color: #2ecc71; /* Cambiar a verde cuando está enfocado */
-    outline: none; /* Quitar el contorno predeterminado */
+    border-color: #2ecc71; 
+    outline: none; 
     z-index: 2
 
 }
@@ -113,17 +113,17 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     width: 20px; 
     height: 20px; 
     border-radius: 50%; 
-    position: absolute; /* Para que pueda moverse libremente */
-    top: 1; /* Empieza desde la parte superior */
+    position: absolute; 
+    top: 1; 
     animation: fall 3s linear infinite; 
     z-index: 1;
 }
 
 @keyframes fall {
     0% {
-        transform: translate(-50%, 100vh); /* Inicia desde el header */
+        transform: translate(-50%, 100vh); 
     }
     100% {
-        transform: translate(-50%, 0); /* Termina en el pie de página */
+        transform: translate(-50%, 0); 
     }
 }
