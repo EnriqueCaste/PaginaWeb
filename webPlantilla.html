@@ -9,10 +9,92 @@
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="grid-container"> 
-            <div class="header-container"> </div>
-            <div class="body-container"> </div>
-            <div class="footer-container"> </div>
-        </div>
+                <div class="volver"><a href="mainPage.html">Volver</a></div>
+                <h2>Jugadores 2024/2025</h2>
+
+    <div class="plantilla">
+
+        <section class="categoria">
+            <h3>Porteros</h3>
+            <div class="jugadores">
+                <div class="jugador" onclick="mostrarEstadisticas('Alexis')">
+                    <p class="nombre">Alexis</p>
+                    <p class="dorsal">1</p>
+            </div>
+            </div>
+        </section>
+        <section class="categoria">
+            <h3>Defensas</h3>
+            <div class="jugadores">
+                <div class="jugador" onclick="mostrarEstadisticas('LuisK')">
+                    <p class="nombre">LuisK</p>
+                    <p class="dorsal">5</p>
+                </div>
+                <div class="jugador" onclick="mostrarEstadisticas('Alvaro')">
+                    <p class="nombre">Alvaro</p>
+                    <p class="dorsal">9</p>
+                </div>
+                <div class="jugador" onclick="mostrarEstadisticas('Isma')">
+                    <p class="nombre">Isma</p>
+                    <p class="dorsal">14</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="categoria">
+            <h3>Centrocampistas</h3>
+            <div class="jugadores">
+                <div class="jugador" onclick="mostrarEstadisticas('Masuel')">
+                    <p class="nombre">Masuel</p>
+                    <p class="dorsal">4</p>
+                </div>
+                <div class="jugador" onclick="mostrarEstadisticas('Suizo')">
+                    <p class="nombre">Suizo</p>
+                    <p class="dorsal">6</p>
+                </div>
+                <div class="jugador" onclick="mostrarEstadisticas('Andres')">
+                    <p class="nombre">Andres</p>
+                    <p class="dorsal">8</p>
+                </div>
+                <div class="jugador" onclick="mostrarEstadisticas('Pacios')">
+                    <p class="nombre">Pacios</p>
+                    <p class="dorsal">10</p> 
+                </div>
+                <div class="jugador" onclick="mostrarEstadisticas('Davila')">
+                    <p class="nombre">Davila</p>
+                    <p class="dorsal">11</p>   
+                </div>
+                <div class="jugador" onclick="mostrarEstadisticas('kike')">
+                    <p class="nombre">kike</p>
+                    <p class="dorsal">21</p>   
+                </div>
+            </div>
+        </section>
+        <section class="categoria">
+            <h3>Delanteros</h3>
+            <div class="jugadores">
+                <div class="jugador" onclick="mostrarEstadisticas('Ivan')">
+                    <p class="nombre">Ivan</p>
+                    <p class="dorsal">2</p>
+                </div>
+                <div class="jugador" onclick="mostrarEstadisticas('Leci')">
+                    <p class="nombre">Leci</p>
+                    <p class="dorsal">7</p>
+                </div>
+                <div class="jugador" onclick="mostrarEstadisticas('Tommy')">
+                    <p class="nombre">Tommy</p>
+                    <p class="dorsal">19</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="panel-estadisticas" id="panelEstadisticas">
+        <button class="cerrar" onclick="cerrarEstadisticas()">✖</button>
+        <div id="contenidoEstadisticas"></div>
+    </div>
+
+    <script src="estadisticas.js"></script>
+
     </body>
 </html>

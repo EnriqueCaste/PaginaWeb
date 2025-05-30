@@ -1,0 +1,117 @@
+body {
+  font-family: "Maven Pro", sans-serif;
+  background-color: #101010;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.volver a {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 2rem;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    color: #b6b2b2;
+    text-decoration: none; 
+    transition: color 0.5s ease; 
+    transition: transform 0.3s ease; 
+    z-index: 2
+}
+.volver a:hover {
+    transform: scale(1.1); 
+    color:white ;
+}
+
+.plantilla {
+  max-width: 800px;
+  padding: 2rem;
+  margin-left: 100px;
+  margin-bottom: 100px;
+
+}
+
+h2 {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 2rem;
+  margin-bottom: -1rem;
+
+}
+h3 {
+  text-align: left;
+
+}
+
+.categoria {
+  margin-bottom: 2rem;
+}
+
+.jugadores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 1.5rem;
+}
+
+.jugador {
+    background: linear-gradient(135deg, #3498db, #076e04); 
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 150px;
+  text-align: center;
+  transition: transform 0.3s;
+  box-shadow: 4px 4px  rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.jugador:hover {
+  transform: scale(1.05);
+}
+
+.dorsal {
+  margin: 0.5rem 0 0.25rem 0;
+    font-weight: bold;
+
+}
+
+.nombre {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+
+}
+.panel-estadisticas {
+  position: fixed;
+  top: 50%;
+  left: 1400px; 
+  transform: translate(-50%, -50%);
+  width: 350px;
+  max-height: 80vh;
+  background-color: #2b2b2b;
+  color: white;
+  padding: 1.5rem;
+  box-shadow: 0 4px  rgba(0,0,0,0.4);
+  border-radius: 12px;
+  z-index: 999;
+  display: none; 
+  overflow-y: auto;
+}
+
+.panel-estadisticas.abierto {
+  display: block;
+}
+
+.panel-estadisticas .cerrar {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+
