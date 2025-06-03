@@ -15,7 +15,6 @@ function mostrarEstadisticas(jugadorId) {
 
         <div class="estadisticas-caja">
           <div><strong>8 </strong><span>Partidos jugados</span></div>
-          <div><strong>0 </strong><span>Goles</span></div>
           <div><strong>1 </strong><span>Asistencias</span></div>
           <div><strong>3 </strong><span>Porterías a cero</span></div>
         </div>
