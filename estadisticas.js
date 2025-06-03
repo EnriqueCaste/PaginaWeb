@@ -4,149 +4,320 @@ function mostrarEstadisticas(jugadorId) {
 
    if (jugadorId === "Alexis") {
     contenido.innerHTML = `
-      <h3>Alexis</h3>
-      <p>Edad: 26</p>
-      <p>Partidos: 8</p>
-      <p>Goles: 0</p>
-      <p>Asistencias: 1</p>
-      <p>Porterias a Cero : 3</p>
-      <p>Amarillas: 0</p>
-      <p>Rojas: 0</p>
+      <div>
+        <div>
+          <span class="numero">1</span>
+          <span class="name">Alexis</span>
+          <div>
+            <p>Portero</p>
+          </div>
+        </div>
 
-    `;
+        <div class="estadisticas-caja">
+          <div><strong>8 </strong><span>Partidos jugados</span></div>
+          <div><strong>0 </strong><span>Goles</span></div>
+          <div><strong>1 </strong><span>Asistencias</span></div>
+          <div><strong>3 </strong><span>Porterías a cero</span></div>
+        </div>
+
+        <div class="estadisticas-caja" style="margin-top: 1rem;">
+          <div><strong>0 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
+
+
   }else if (jugadorId === "LuisK") {
     contenido.innerHTML = `
-      <h3>LuisK</h3>
-      <p>Edad: 23</p>
-      <p>Partidos: 18</p>
-      <p>Goles: 1</p>
-      <p>Asistencias: 1</p>
-      <p>Amarillas: 0</p>
-      <p>Rojas: 0</p>
+    <div>
+        <div>
+          <span class="numero">5</span>
+          <span class="name">LuisK</span>
+          <div>
+            <p>Defensa</p>
+          </div>
+        </div>
 
-    `;
+        <div class="estadisticas-caja">
+          <div><strong>18 </strong><span>Partidos jugados</span></div>
+          <div><strong>1 </strong><span>Goles</span></div>
+          <div><strong>1 </strong><span>Asistencias</span></div>
+        </div>
+
+        <div class="estadisticas-caja">
+          <div><strong>0 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
+      
+    
   } else if (jugadorId === "Alvaro") {
     contenido.innerHTML = `
-      <h3>Alvaro</h3>
-      <p>Edad: 23</p>
-      <p>Partidos: 12 </p>
-      <p>Goles: 1</p>
-      <p>Asistencias: 0</p>
-      <p>Amarillas: 0</p>
-      <p>Rojas: 0</p>
+        <div>
+        <div>
+          <span class="numero">9</span>
+          <span class="name">Alvaro</span>
+          <div>
+            <p>Defensa</p>
+          </div>
+        </div>
 
-    `;
+        <div class="estadisticas-caja">
+          <div><strong>12 </strong><span>Partidos jugados</span></div>
+          <div><strong>1 </strong><span>Goles</span></div>
+          <div><strong>0 </strong><span>Asistencias</span></div>
+        </div>
+
+        <div class="estadisticas-caja">
+          <div><strong>0 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
+  
   }
  else if (jugadorId === "Isma") {
     contenido.innerHTML = `
-      <h3>Isma</h3>
-      <p>Edad: 23</p>
-      <p>Partidos: 20</p>
-      <p>Goles: 2 </p>
-      <p>Asistencias: 2</p>
-      <p>Amarillas: 0</p>
-      <p>Rojas: 0</p>
+     <div>
+        <div>
+          <span class="numero">14</span>
+          <span class="name">Isma</span>
+          <div>
+            <p>Defensa</p>
+          </div>
+        </div>
 
-    `;
+        <div class="estadisticas-caja">
+          <div><strong>20 </strong><span>Partidos jugados</span></div>
+          <div><strong>2 </strong><span>Goles</span></div>
+          <div><strong>3 </strong><span>Asistencias</span></div>
+        </div>
+
+        <div class="estadisticas-caja"">
+          <div><strong>0 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
+  
   } else if (jugadorId === "Masuel") {
     contenido.innerHTML = `
-      <h3>Masuel</h3>
-      <p>Edad: 23</p>
-      <p>Partidos: 22 </p>
-      <p>Goles: 2 </p>
-      <p>Asistencias: 3</p>
-      <p>Amarillas: 0</p>
-      <p>Rojas: 0</p>
 
-    `;
+     <div>
+        <div>
+          <span class="numero">4</span>
+          <span class="name">Masuel</span>
+          <div>
+            <p>Mediocentro</p>
+          </div>
+        </div>
+
+        <div class="estadisticas-caja">
+          <div><strong>20 </strong><span>Partidos jugados</span></div>
+          <div><strong>2 </strong><span>Goles</span></div>
+          <div><strong>2 </strong><span>Asistencias</span></div>
+        </div>
+
+        <div class="estadisticas-caja"">
+          <div><strong>0 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
   } else if (jugadorId === "Suizo") {
     contenido.innerHTML = `
-      <h3>Suizo</h3>
-      <p>Edad: 23</p>
-      <p>Partidos: 21</p>
-      <p>Goles: 22</p>
-      <p>Asistencias: 5</p>
-      <p>Amarillas: 3</p>
-      <p>Rojas: 0</p>
+      
+     <div>
+        <div>
+          <span class="numero">6</span>
+          <span class="name">Suizo</span>
+          <div>
+            <p>Mediocentro</p>
+          </div>
+        </div>
 
-    `;
+        <div class="estadisticas-caja">
+          <div><strong>21 </strong><span>Partidos jugados</span></div>
+          <div><strong>22 </strong><span>Goles</span></div>
+          <div><strong>5 </strong><span>Asistencias</span></div>
+        </div>
+
+        <div class="estadisticas-caja"">
+          <div><strong>3 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
   } else if (jugadorId === "Andres") {
     contenido.innerHTML = `
-      <h3>Andres</h3>
-      <p>Edad: 23</p>
-      <p>Partidos: 17</p>
-      <p>Goles: 1</p>
-      <p>Asistencias: 3</p>
-      <p>Amarillas: 0</p>
-      <p>Rojas: 0</p>
+  
+     <div>
+        <div>
+          <span class="numero">8</span>
+          <span class="name">Andres</span>
+          <div>
+            <p>Mediocentro</p>
+          </div>
+        </div>
 
-    `;
+        <div class="estadisticas-caja">
+          <div><strong>20 </strong><span>Partidos jugados</span></div>
+          <div><strong>1 </strong><span>Goles</span></div>
+          <div><strong>2 </strong><span>Asistencias</span></div>
+        </div>
+
+        <div class="estadisticas-caja"">
+          <div><strong>0 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
   } else if (jugadorId === "Pacios") {
     contenido.innerHTML = `
-      <h3>Pacios</h3>
-      <p>Edad: 23</p>
-      <p>Partidos: 19</p>
-      <p>Goles: 2</p>
-      <p>Asistencias: 1</p>
-      <p>Amarillas: 0</p>
-      <p>Rojas: 0</p>
 
-    `;
+     <div>
+        <div>
+          <span class="numero">10</span>
+          <span class="name">Pacios</span>
+          <div>
+            <p>Mediocentro</p>
+          </div>
+        </div>
+
+        <div class="estadisticas-caja">
+          <div><strong>19 </strong><span>Partidos jugados</span></div>
+          <div><strong>2 </strong><span>Goles</span></div>
+          <div><strong>1 </strong><span>Asistencias</span></div>
+        </div>
+
+        <div class="estadisticas-caja"">
+          <div><strong>0 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
   } else if (jugadorId === "Davila") {
     contenido.innerHTML = `
-      <h3>Davila</h3>
-      <p>Edad: 23</p>
-      <p>Partidos: 21</p>
-      <p>Goles: 1</p>
-      <p>Asistencias: 1</p>
-      <p>Amarillas: 0</p>
-      <p>Rojas: 0</p>
+  
+     <div>
+        <div>
+          <span class="numero">11</span>
+          <span class="name">Davila</span>
+          <div>
+            <p>Mediocentro</p>
+          </div>
+        </div>
 
-    `;
-  } else if (jugadorId === "kike") {
+        <div class="estadisticas-caja">
+          <div><strong>21 </strong><span>Partidos jugados</span></div>
+          <div><strong>1 </strong><span>Goles</span></div>
+          <div><strong>1 </strong><span>Asistencias</span></div>
+        </div>
+
+        <div class="estadisticas-caja"">
+          <div><strong>0 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
+  } else if (jugadorId === "Kike") {
     contenido.innerHTML = `
-      <h3>kike</h3>
-      <p>Edad: 23</p>
-      <p>Partidos: 23</p>
-      <p>Goles: 7</p>
-      <p>Asistencias: 10</p>
-      <p>Amarillas: 0</p>
-      <p>Rojas: 0</p>
 
-    `;
+     <div>
+        <div>
+          <span class="numero">21</span>
+          <span class="name">Kike</span>
+          <div>
+            <p>Mediocentro</p>
+          </div>
+        </div>
+
+        <div class="estadisticas-caja">
+          <div><strong>23 </strong><span>Partidos jugados</span></div>
+          <div><strong>7 </strong><span>Goles</span></div>
+          <div><strong>10 </strong><span>Asistencias</span></div>
+        </div>
+
+        <div class="estadisticas-caja"">
+          <div><strong>0 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
   } else if (jugadorId === "Ivan") {
     contenido.innerHTML = `
-      <h3>Ivan</h3>
-      <p>Edad: 23</p>
-      <p>Partidos: 20</p>
-      <p>Goles: 0</p>
-      <p>Asistencias: 1 </p>
-      <p>Amarillas: 0</p>
-      <p>Rojas: 0</p>
 
-    `;
+     <div>
+        <div>
+          <span class="numero">2</span>
+          <span class="name">Ivan</span>
+          <div>
+            <p>Delantero</p>
+          </div>
+        </div>
+
+        <div class="estadisticas-caja">
+          <div><strong>20 </strong><span>Partidos jugados</span></div>
+          <div><strong>0 </strong><span>Goles</span></div>
+          <div><strong>1 </strong><span>Asistencias</span></div>
+        </div>
+
+        <div class="estadisticas-caja"">
+          <div><strong>0 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
   } else if (jugadorId === "Leci") {
     contenido.innerHTML = `
-      <h3>Leci</h3>
-      <p>Edad: 23</p>
-      <p>Partidos:1</p>
-      <p>Goles: 0</p>
-      <p>Asistencias: 0</p>
-      <p>Amarillas: 0</p>
-      <p>Rojas: 0</p>
 
-    `;
+     <div>
+        <div>
+          <span class="numero">7</span>
+          <span class="name">Leci</span>
+          <div>
+            <p>Delantero</p>
+          </div>
+        </div>
+
+        <div class="estadisticas-caja">
+          <div><strong>1 </strong><span>Partidos jugados</span></div>
+          <div><strong>0 </strong><span>Goles</span></div>
+          <div><strong>0 </strong><span>Asistencias</span></div>
+        </div>
+
+        <div class="estadisticas-caja"">
+          <div><strong>0 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
   } else if (jugadorId === "Tommy") {
     contenido.innerHTML = `
-      <h3>Tommy</h3>
-      <p>Edad: 23</p>
-      <p>Partidos: 14</p>
-      <p>Goles: 14</p>
-      <p>Asistencias: 3</p>
-      <p>Amarillas: 0</p>
-      <p>Rojas: 0</p>
+  
+     <div>
+        <div>
+          <span class="numero">19</span>
+          <span class="name">Tommy</span>
+          <div>
+            <p>Delantero</p>
+          </div>
+        </div>
 
-    `;
+        <div class="estadisticas-caja">
+          <div><strong>14 </strong><span>Partidos jugados</span></div>
+          <div><strong>14 </strong><span>Goles</span></div>
+          <div><strong>3 </strong><span>Asistencias</span></div>
+        </div>
+
+        <div class="estadisticas-caja"">
+          <div><strong>0 </strong><span>Amarillas</span></div>
+          <div><strong>0 </strong><span>Rojas</span></div>
+        </div>
+      </div>
+      `
   }
 
   panel.classList.add("abierto");

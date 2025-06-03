@@ -14,7 +14,7 @@ body {
 }
 .header-container {
     grid-row: span 2; 
-    background-color: #1e1e1e;
+    background-color: #2a2a2a;
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -45,7 +45,7 @@ body {
 
 .main-container {
     grid-row: span 8;
-    background: linear-gradient(135deg, #3498db, #2ecc71); 
+    background: linear-gradient(135deg, #0eff06c6 ,#545454); 
     font-family: "Maven Pro", sans-serif;
     display: flex; 
     align-items: center; 
@@ -107,11 +107,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .footer-container {
     grid-row: span 2; 
-    background-color: #1e1e1e;
+    background-color: #2a2a2a;
 }
 
 .paint-drop {
-    background-color: #1e1e1e; 
+    background-color: #2a2a2a; 
     width: 20px; 
     height: 20px; 
     border-radius: 50%; 
