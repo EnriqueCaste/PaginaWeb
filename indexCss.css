@@ -67,7 +67,8 @@ body {
 }
 .txt {
   font-size: 7rem; 
-  margin-top: -0.3rem; 
+  margin-top: -0.3rem;
+  cursor: default; 
   z-index: 2;
 }
 .texto {

@@ -1,5 +1,9 @@
-document.querySelector('.caspint').addEventListener('click', function() {
-    document.querySelector('.main-container').style.backgroundImage = generarDegradadoAleatorio();
+document.querySelector('.club').addEventListener('click', function() {
+    const fondo = generarDegradadoAleatorio();
+    document.querySelector('.main-container').style.backgroundImage = fondo;
+    document.querySelectorAll('.footer-container ul li a').forEach(icon => {
+    icon.style.backgroundImage = fondo;
+    });
 
   });
 

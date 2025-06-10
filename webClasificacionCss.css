@@ -3,7 +3,10 @@ body {
   background-color: #2a2a2a;
   overflow: hidden;
 }
+
 /* -------- Header -------- */
+
+/* -------- volver -------- */
 
 .volver a {
   font-size: 1.2rem; 
@@ -27,32 +30,23 @@ body {
   z-index: 10;
   font-size: 1rem;
   color: #b6b2b2;
+  
 }
 
 .selector-temporada select {
   font-family: "Maven Pro", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding: 0.3rem 0.5rem;
   border-radius: 0.3rem;
   border: none;
-  background-color: #444;
+  background-color: #474747;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .selector-temporada select:hover {
-  background-color: #666;
-}
-
-.sr-only {
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: 2px;
-  overflow: hidden;
-  clip: rect(0,0,0,0);
-  border: 0;
+  background-color: #6b6b6b;
 }
 
 /* -------- General Tabla -------- */
