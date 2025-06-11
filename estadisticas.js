@@ -14,14 +14,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>8 </strong><span>Partidos jugados</span></div>
-          <div><strong>1 </strong><span>Asistencias</span></div>
-          <div><strong>3 </strong><span>Porterías a cero</span></div>
+          <div>8 <span>Partidos jugados</span></div>
+          <div>1 <span>Asistencias</span></div>
+          <div>3 <span>Porterías a cero</span></div>
         </div>
 
         <div class="estadisticas-caja" style="margin-top: 1rem;">
-          <div><strong>0 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>0 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
@@ -39,14 +39,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>18 </strong><span>Partidos jugados</span></div>
-          <div><strong>1 </strong><span>Goles</span></div>
-          <div><strong>1 </strong><span>Asistencias</span></div>
+          <div>18 <span>Partidos jugados</span></div>
+          <div>1 <span>Goles</span></div>
+          <div>1 <span>Asistencias</span></div>
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>0 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>0 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
@@ -64,14 +64,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>12 </strong><span>Partidos jugados</span></div>
-          <div><strong>1 </strong><span>Goles</span></div>
-          <div><strong>0 </strong><span>Asistencias</span></div>
+          <div>12 <span>Partidos jugados</span></div>
+          <div>1 <span>Goles</span></div>
+          <div>0 <span>Asistencias</span></div>
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>0 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>0 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
@@ -89,14 +89,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>20 </strong><span>Partidos jugados</span></div>
-          <div><strong>2 </strong><span>Goles</span></div>
-          <div><strong>3 </strong><span>Asistencias</span></div>
+          <div>20 <span>Partidos jugados</span></div>
+          <div>2 <span>Goles</span></div>
+          <div>3 <span>Asistencias</span></div>
         </div>
 
         <div class="estadisticas-caja"">
-          <div><strong>0 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>0 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
@@ -114,14 +114,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>20 </strong><span>Partidos jugados</span></div>
-          <div><strong>2 </strong><span>Goles</span></div>
-          <div><strong>2 </strong><span>Asistencias</span></div>
+          <div>20 <span>Partidos jugados</span></div>
+          <div>2 <span>Goles</span></div>
+          <div>2 <span>Asistencias</span></div>
         </div>
 
         <div class="estadisticas-caja"">
-          <div><strong>0 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>0 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
@@ -138,14 +138,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>21 </strong><span>Partidos jugados</span></div>
-          <div><strong>22 </strong><span>Goles</span></div>
-          <div><strong>5 </strong><span>Asistencias</span></div>
+          <div>21 <span>Partidos jugados</span></div>
+          <div>22 <span>Goles</span></div>
+          <div>5 <span>Asistencias</span></div>
         </div>
 
         <div class="estadisticas-caja"">
-          <div><strong>3 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>3 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
@@ -162,14 +162,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>20 </strong><span>Partidos jugados</span></div>
-          <div><strong>1 </strong><span>Goles</span></div>
-          <div><strong>2 </strong><span>Asistencias</span></div>
+          <div>20 <span>Partidos jugados</span></div>
+          <div>1 <span>Goles</span></div>
+          <div>2 <span>Asistencias</span></div>
         </div>
 
         <div class="estadisticas-caja"">
-          <div><strong>0 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>0 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
@@ -186,14 +186,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>19 </strong><span>Partidos jugados</span></div>
-          <div><strong>2 </strong><span>Goles</span></div>
-          <div><strong>1 </strong><span>Asistencias</span></div>
+          <div>19 <span>Partidos jugados</span></div>
+          <div>2 <span>Goles</span></div>
+          <div>1 <span>Asistencias</span></div>
         </div>
 
         <div class="estadisticas-caja"">
-          <div><strong>0 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>0 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
@@ -210,14 +210,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>21 </strong><span>Partidos jugados</span></div>
-          <div><strong>1 </strong><span>Goles</span></div>
-          <div><strong>1 </strong><span>Asistencias</span></div>
+          <div>21 <span>Partidos jugados</span></div>
+          <div>1 <span>Goles</span></div>
+          <div>1 <span>Asistencias</span></div>
         </div>
 
         <div class="estadisticas-caja"">
-          <div><strong>0 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>0 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
@@ -234,14 +234,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>23 </strong><span>Partidos jugados</span></div>
-          <div><strong>7 </strong><span>Goles</span></div>
-          <div><strong>10 </strong><span>Asistencias</span></div>
+          <div>23 <span>Partidos jugados</span></div>
+          <div>7 <span>Goles</span></div>
+          <div>10 <span>Asistencias</span></div>
         </div>
 
         <div class="estadisticas-caja"">
-          <div><strong>0 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>0 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
@@ -258,14 +258,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>20 </strong><span>Partidos jugados</span></div>
-          <div><strong>0 </strong><span>Goles</span></div>
-          <div><strong>1 </strong><span>Asistencias</span></div>
+          <div>20 <span>Partidos jugados</span></div>
+          <div>0 <span>Goles</span></div>
+          <div>1 <span>Asistencias</span></div>
         </div>
 
         <div class="estadisticas-caja"">
-          <div><strong>0 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>0 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
@@ -282,14 +282,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>1 </strong><span>Partidos jugados</span></div>
-          <div><strong>0 </strong><span>Goles</span></div>
-          <div><strong>0 </strong><span>Asistencias</span></div>
+          <div>1 <span>Partidos jugados</span></div>
+          <div>0 <span>Goles</span></div>
+          <div>0 <span>Asistencias</span></div>
         </div>
 
         <div class="estadisticas-caja"">
-          <div><strong>0 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>0 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
@@ -306,14 +306,14 @@ function mostrarEstadisticas(jugadorId) {
         </div>
 
         <div class="estadisticas-caja">
-          <div><strong>14 </strong><span>Partidos jugados</span></div>
-          <div><strong>14 </strong><span>Goles</span></div>
-          <div><strong>3 </strong><span>Asistencias</span></div>
+          <div>14 <span>Partidos jugados</span></div>
+          <div>14 <span>Goles</span></div>
+          <div>3 <span>Asistencias</span></div>
         </div>
 
         <div class="estadisticas-caja"">
-          <div><strong>0 </strong><span>Amarillas</span></div>
-          <div><strong>0 </strong><span>Rojas</span></div>
+          <div>0 <span>Amarillas</span></div>
+          <div>0 <span>Rojas</span></div>
         </div>
       </div>
       `
