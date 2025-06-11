@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Torneos</title>
-    <link rel="stylesheet" href="webTorneosCss.css">
+    <link rel="stylesheet" href="torneosStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
@@ -12,19 +12,14 @@
 <body>
     <div class="volver"><a href="index.html">Volver</a></div>
         <div class="selector-temporada">
-            <label for="season-select" >Seleccionar temporada</label>
-            <select id="season-select" name="season-select">
-                <option value="2024-2025" selected>2024/2025</option>
+            <label>Seleccionar temporada</label>
+                <select id="season">
+                <option value="2024-2025">2024/2025</option>
             </select>
         </div>
-    <h1>Proximamente!</h1>
-    <div class="contenedor-torneos">
-        <div class="torneo izquierda">
-        <h3>Copa de la liga</h3>
-        </div>
-        <div class="torneo derecha">
-        <h3>Torneo Palancas</h3>
-        </div>
+    <div>
+        <div class="torneo izquierda copaLiga"><a href="copaLiga.html">Copa De La Liga</a></div>
+        <div class="torneo derecha"><a href="copaPalancas.html">Torneo Palancas</a></div>
     </div>
 </body>
 </html>

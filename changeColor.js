@@ -1,7 +1,7 @@
 document.querySelector('.club').addEventListener('click', function() {
     const fondo = generarDegradadoAleatorio();
-    document.querySelector('.main-container').style.backgroundImage = fondo;
-    document.querySelectorAll('.footer-container ul li a').forEach(icon => {
+    document.querySelector('.main').style.backgroundImage = fondo;
+    document.querySelectorAll('.footer ul li a').forEach(icon => {
     icon.style.backgroundImage = fondo;
     });
 

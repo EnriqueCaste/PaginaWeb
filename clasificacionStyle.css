@@ -51,7 +51,7 @@ body {
 
 /* -------- General Tabla -------- */
 
-.standings-section {
+.container {
   width: 50rem; 
   height: 51rem; 
   margin: 2rem auto 0; 
@@ -61,7 +61,7 @@ body {
   color: #e0e0e0;
 }
 
-.standings-section h2 {
+.container h2 {
   text-align: center;
   margin-bottom: 0.75rem; 
   font-size: 1.7rem; 
@@ -70,14 +70,14 @@ body {
 
 /* -------- Contenedor Tabla -------- */
 
-.table-container {
+.table {
   overflow-x: auto;
   background-color: #1e1e1e;
 }
 
 /* -------- Tabla Clasificacion -------- */
 
-.standings-table {
+.standings {
   width: 100%;
   border-collapse: collapse;
   text-align: center;
@@ -85,14 +85,14 @@ body {
   background-color: #262626;
 }
 
-.standings-table th,
-.standings-table td {
+.standings th,
+.standings td {
   padding: 1rem; 
 }
 
 /* -------- Ultimos Resultados -------- */
 
-.res {
+.result {
   display: inline-block;
   width: 1.5rem; 
   margin: 0.06rem; 
@@ -104,9 +104,9 @@ body {
   color: white;
 }
 
-.res-win  { background-color: rgb(29, 192, 29); }
-.res-draw { background-color: #FACE30; }
-.res-loss { background-color: rgb(253, 22, 22); }
+.result-win  { background-color: rgb(29, 192, 29); }
+.result-draw { background-color: #FACE30; }
+.result-loss { background-color: rgb(253, 22, 22); }
 
 /* -------- Filas Destacadas -------- */
 

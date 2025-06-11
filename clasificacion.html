@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <title>Clasificacion</title>
-    <link rel="stylesheet" href="webClasificacionCss.css">
+    <link rel="stylesheet" href="clasificacionStyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
 
 
@@ -12,15 +12,15 @@
 <body>
     <div class="volver"><a href="index.html">Volver</a></div>
         <div class="selector-temporada">
-            <label for="season-select" >Seleccionar temporada</label>
-            <select id="season-select" name="season-select">
+            <label>Seleccionar temporada</label>
+            <select id="season">
                 <option value="2024-2025">2024/2025</option>
             </select>
         </div>
-    <section class="standings-section">
+    <section class="container">
         <h2>Clasificación Serie A 2024/2025</h2>
-        <div class="table-container">
-            <table class="standings-table">
+        <div class="table">
+            <table class="standings">
                 <thead>
                     <tr>
                         <th></th>
@@ -32,7 +32,7 @@
                         <th>GF</th>
                         <th>GC</th>
                         <th>Pts</th>
-                        <th>Ultimos Partidos</th>
+                        <th>fiveM Partidos</th>
                     </tr>
                 </thea>
                 <tbody>
@@ -46,12 +46,12 @@
                     <td>103</td>
                     <td>41</td>
                     <td>58</td>
-                        <td class="ultimos">
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
+                        <td>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
                         </td>
                     </tr>
                     <tr>
@@ -64,12 +64,12 @@
                     <td>108</td>
                     <td>43</td>
                     <td>53</td>
-                        <td class="ultimos">
-                            <span class="res res-loss">L</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
+                        <td>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
                         </td>
                     </tr>
                     <tr>
@@ -82,17 +82,17 @@
                     <td>88</td>
                     <td>49</td>
                     <td>51</td>
-                        <td class="ultimos">
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-draw">D</span>
+                        <td>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-draw">D</span>
                         </td>
                     </tr>
                     <tr>
                     <td>4</td>
-                    <td>Gofres United</td>
+                    <td>Gofresult United</td>
                     <td>24</td>
                     <td>13</td>
                     <td>5</td>
@@ -100,12 +100,12 @@
                     <td>61</td>
                     <td>46</td>
                     <td>44</td>
-                        <td class="ultimos">
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-draw">D</span>
+                        <td>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-draw">D</span>
                         </td>
                     </tr>
                     <tr>
@@ -118,12 +118,12 @@
                     <td>80</td>
                     <td>61</td>
                     <td>43</td>
-                        <td class="ultimos">
-                            <span class="res res-win">W</span>
-                            <span class="res res-draw">D</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-draw">D</span>
+                        <td>
+                            <span class="result result-win">W</span>
+                            <span class="result result-draw">D</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-draw">D</span>
                         </td>
                     </tr>
                     <tr>
@@ -136,12 +136,12 @@
                     <td>72</td>
                     <td>49</td>
                     <td>39</td>
-                        <td class="ultimos">
-                            <span class="res res-loss">L</span>
-                            <span class="res res-draw">D</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-draw">D</span>
+                        <td>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-draw">D</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-draw">D</span>
                         </td>
                     </tr>
                     <tr>
@@ -154,12 +154,12 @@
                     <td>56</td>
                     <td>62</td>
                     <td>36</td>
-                        <td class="ultimos">
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-loss">L</span>
+                        <td>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-loss">L</span>
                         </td>
                     </tr>
                     <tr>
@@ -172,12 +172,12 @@
                     <td>62</td>
                     <td>82</td>
                     <td>34</td>
-                        <td class="ultimos">
-                            <span class="res res-loss">L</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-loss">L</span>
+                        <td>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-loss">L</span>
                         </td>
                     </tr>
                     <tr class="txt">
@@ -190,12 +190,12 @@
                     <td>57</td>
                     <td>65</td>
                     <td>33</td>
-                        <td class="ultimos">
-                            <span class="res res-loss">L</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-draw">D</span>
+                        <td>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-draw">D</span>
                         </td>
                     </tr>
                     <tr>
@@ -208,12 +208,12 @@
                     <td>52</td>
                     <td>79</td>
                     <td>21</td>
-                        <td class="ultimos">
-                            <span class="res res-win">W</span>
-                            <span class="res res-draw">D</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-loss">L</span>
+                        <td>
+                            <span class="result result-win">W</span>
+                            <span class="result result-draw">D</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-loss">L</span>
                         </td>
                     </tr>
                     <tr>
@@ -226,12 +226,12 @@
                     <td>44</td>
                     <td>78</td>
                     <td>15</td>
-                        <td class="ultimos">
-                            <span class="res res-win">W</span>
-                            <span class="res res-draw">D</span>
-                            <span class="res res-draw">D</span>
-                            <span class="res res-win">W</span>
-                            <span class="res res-draw">D</span>
+                        <td>
+                            <span class="result result-win">W</span>
+                            <span class="result result-draw">D</span>
+                            <span class="result result-draw">D</span>
+                            <span class="result result-win">W</span>
+                            <span class="result result-draw">D</span>
                         </td>
                     </tr>
                     <tr>
@@ -244,12 +244,12 @@
                     <td>34</td>
                     <td>109</td>
                     <td>9</td>
-                        <td class="ultimos">
-                            <span class="res res-loss">L</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-win">W</span>
+                        <td>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-win">W</span>
                         </td>
                     </tr>
                     <tr>
@@ -262,12 +262,12 @@
                     <td>39</td>
                     <td>92</td>
                     <td>8</td>
-                        <td class="ultimos">
-                            <span class="res res-draw">D</span>
-                            <span class="res res-loss">L</span>
-                            <span class="res res-draw">D</span>
-                            <span class="res res-draw">D</span>
-                            <span class="res res-draw">D</span>
+                        <td>
+                            <span class="result result-draw">D</span>
+                            <span class="result result-loss">L</span>
+                            <span class="result result-draw">D</span>
+                            <span class="result result-draw">D</span>
+                            <span class="result result-draw">D</span>
                         </td>
                     </tr>
                 </tbody>

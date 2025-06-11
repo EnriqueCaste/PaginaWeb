@@ -71,15 +71,15 @@ h3 {
 
 /* -------- Categorias -------- */
 
-.categoria {
+.posicion {
   margin-bottom: 2rem; 
   opacity: 0;
   animation: fadeInArriba 0.8s ease forwards;
 }
-.categoria:nth-of-type(1) { animation-delay: 0.2s; }
-.categoria:nth-of-type(2) { animation-delay: 0.6s; }
-.categoria:nth-of-type(3) { animation-delay: 1.2s; }
-.categoria:nth-of-type(4) { animation-delay: 1.8s; }
+.posicion:nth-of-type(1) { animation-delay: 0.2s; }
+.posicion:nth-of-type(2) { animation-delay: 0.6s; }
+.posicion:nth-of-type(3) { animation-delay: 1.2s; }
+.posicion:nth-of-type(4) { animation-delay: 1.8s; }
 
 /* -------- Jugadores -------- */
 
