@@ -1,10 +1,9 @@
 body {
   font-family: "Maven Pro", sans-serif;
-  background-color: #2a2a2a;
   margin: 0;
-    padding: 0;
-  color: inherit;
+  padding: 0;
   text-decoration: none;
+  background-color: #2a2a2a;
 }
 
 /* -------- volver -------- */
@@ -49,9 +48,8 @@ body {
 }
 
 
-
 .torneo {
-  background: transparent;
+  background: #2a2a2a;
   margin-top: 25rem;
   position: absolute;
   color: white;
@@ -59,19 +57,23 @@ body {
   border: 0.2rem solid white; 
   border-radius: 0.2rem;
   cursor: pointer;
-  width: 14rem;         
+  width: 15rem;         
   height: 1.2rem;         
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-} 
-.torneo a{
-  color: inherit;
-  text-decoration: none;
-    font-weight: bold;
+  overflow: hidden; 
+}
 
-}      
+.torneo a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+  z-index: 1; 
+  transition: color 0.8s ease;
+}
 
 .torneo::before {
   content: "";
@@ -80,9 +82,17 @@ body {
   left: 0;
   width: 0%;
   height: 100%;
-  background: #28a745; 
+  background: #ffffff; 
   transition: width 0.8s ease;
-  z-index: -1;
+  z-index: 0;
+}
+
+.torneo:hover::before {
+  width: 100%;
+}
+
+.torneo:hover a {
+  color: black;
 }
 
 .torneo:hover::before {
@@ -118,5 +128,23 @@ body {
   to {
     transform: translateX(0%);
     opacity: 1;
+  }
+}
+.fondo-animado {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 30%, #50fa7b, transparent 40%),
+              radial-gradient(circle at 70% 40%, #32cd75, transparent 35%);
+  animation: moverFondo 10s ease-in-out infinite;
+  z-index: -1;
+}
+
+@keyframes moverFondo {
+  0%, 100% {
+    filter: saturate(1);
+  }
+  50% {
+    filter: saturate(1.8);
   }
 }
