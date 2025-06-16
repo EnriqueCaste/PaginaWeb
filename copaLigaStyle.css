@@ -101,7 +101,6 @@ body {
   background: radial-gradient(circle at 20% 30%, #50fa7b, transparent 40%),
               radial-gradient(circle at 70% 40%, #32cd75, transparent 35%),
               radial-gradient(circle at 40% 80%, #00a35c, transparent 30%);
-  animation: moverFondo 10s ease-in-out infinite;
   z-index: -1;
 }
 
